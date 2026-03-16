@@ -6,7 +6,7 @@
 ---
 
 ## 📌 Overview
-
+ 
 Memes are one of the most uniquely human forms of communication — they combine visual context with language in ways that require understanding both. Automating that process is a genuinely hard AI problem: the model needs to look at an image, understand its cultural context, and generate a caption that is not just grammatically correct but actually funny.
 
 This project builds an image-conditioned caption generation system trained on 900K real memes across 200 templates. It compares 8 model variants — LSTM and Transformer decoders, with and without template labels, at both word and character level — and generates memes using beam search decoding with temperature sampling.
